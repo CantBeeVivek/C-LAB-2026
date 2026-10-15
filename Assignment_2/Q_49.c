@@ -4,7 +4,7 @@ int main()
     int num[100],i=0,j=0,n,temp,k,min;
     printf("Enter the size of array : ");
     scanf("%d", &n);
-    printf("Enter the numbers of the array for bubble sort \n");
+    printf("Enter the numbers of the array for selection sort \n");
     for (i=0; i<n; i++){
         scanf("%d", &num[i]);
     }
