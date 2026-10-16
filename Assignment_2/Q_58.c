@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int num[100],i,n,search,flag;
+    int num[100],i,n,search,flag=0;
     printf("Enter the total number of elements in the array : ");
     scanf("%d", &n);
     printf("\nEnter the numbers of the array\n");
@@ -17,8 +17,8 @@ int main()
     for(i=0; i<n; i++){
         if(search == num[i]){
             flag=1;
+            break;
         }
-        else flag=0;
     }
     if(flag){
         printf("\nThe search number %d is at the index %d and position %d \n", search, i, i+1);
