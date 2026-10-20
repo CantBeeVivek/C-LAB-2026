@@ -1,4 +1,5 @@
 #include <stdio.h>
+// WRITE A FUNCTION TO CHECK WHETHER A NUMBER IS ARMSTRONG OT NOT. 
 void armstrong(int num){
     int r,q=0,v=num,n1=num,b;
     for(int i=0; v!=0; i++){
