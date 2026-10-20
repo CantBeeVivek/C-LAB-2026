@@ -1,6 +1,6 @@
 #include <stdio.h>
 void palindrome(int num){
-    int r,q,v=num;
+    int r,q=0,v=num;
     for(int i=0; v!=0; i++){
         r = v%10;
         q = q*10 + r;
