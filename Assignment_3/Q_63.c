@@ -1,6 +1,6 @@
 #include <stdio.h>
 // WRITE A FUNCTION EXCHANGE TO INTERCHANGE THE VALUE OF TWO VARIALBLE ,SAY X AND Y . 
-void armstrong(int a,int b){
+void interchange(int a,int b){
     a = b+a;
     b = a-b;
     a = a-b;
@@ -13,6 +13,6 @@ int main()
     scanf("%d", &a);
     scanf("%d", &b);
     printf("\nThe numbers before swapping are %d and %d", a,b);
-    armstrong(a,b);
+    interchange(a,b);
     return 0;
 }
