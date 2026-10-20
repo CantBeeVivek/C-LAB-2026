@@ -1,6 +1,6 @@
 #include <stdio.h>
 // WRITE A FUNCTION THAT WILL GENERATE AND PRINT THE FIRST N FIBONACCI NUMBERS.
-void armstrong(int n){
+void fibonacci(int n){
     int a=0,b=1,c;
     printf("%d ", a);
     printf("%d ", b);
@@ -16,6 +16,6 @@ int main()
     int n;
     printf("Enter the numbers of terms of fibonnaci series you want to print : ");
     scanf("%d", &n);
-    armstrong(n);
+    fibonacci(n);
     return 0;
 }
