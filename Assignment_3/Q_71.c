@@ -1,5 +1,5 @@
 #include <stdio.h>
-// WRITE A FUNCTION TO READ CHARACTER AND CHECK WHETHER IT IS VOWEL OR NOT. 
+// WRITE A FUNCTION TO THE LENGTH OF A STRING. 
 int str_len(char *word){
     int i=0,count=0;
     while(word[i]!='\0' && word[i]!='\n'){
