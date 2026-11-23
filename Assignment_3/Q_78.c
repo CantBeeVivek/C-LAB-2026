@@ -7,7 +7,7 @@ int main(){
     fgets(str, sizeof(str), stdin);
     printf("Enter a character to search: ");   
     scanf("%c", &target);
-    for(i = 0; str[i] != '\0'; i++){
+    for(i = 0; str[i] != '\0'&& str[i] != '\n'; i++){
         if(str[i] == target){
             flag = 1;
             break;

@@ -4,11 +4,12 @@
 int main() {
     char str1[100], str2[100], str3[200];
     int length;
+
     printf("Enter first string: ");
     fgets(str1, sizeof(str1), stdin);
     printf("Enter second string: ");
     fgets(str2, sizeof(str2), stdin);
-
+    
     length = strlen(str1) - 1; 
     printf("Length of first string: %d\n", length);
 
